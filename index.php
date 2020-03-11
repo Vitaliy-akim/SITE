@@ -25,51 +25,150 @@
     <script src="js/jquery.nice-select.js"></script>
 </head>
 <body>
-<header>safsf
-    sdgfvo[sd
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<header>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Проекты</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">О компании</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Офисы продаж</a>
-                </li>
-            </ul>
-            <img src="uploud/Adress.svg" alt="ds">   <span>г. Домодедово, ул. Курыжова</span>
-            <button type="button" class="btn btn-secondary btn-lg">Большая кнопка</button>
 
-        </div
-    </nav>
-    </div>
-    <hr>
-    <div class="container">
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Проекты</a>
+                        <a class="nav-link nav--link" href="#">Проекты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О компании</a>
+                        <a class="nav-link nav--link" href="#">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Офисы продаж</a>
+                        <a class="nav-link nav--link" href="#">Офисы продаж</a>
                     </li>
                 </ul>
+                <div class="phone mr-4">
+                    <img src="uploud/Adress.svg" alt="ds"> <span>г. Домодедово, ул. Курыжова</span>
 
+                </div>
+                <button type="button" class="btn btn--viabr">Выбрать квартиру <img src="uploud/Vector-right.svg" alt="">
+                </button>
+            </div
+        </nav>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#"><img src="uploud/2687789277888.svg" alt="main_logo">
+                </a>
+                <ul class="list--logo mr-auto">
+                    <li>ЖИЛОЙ КОМПЛЕКС</li>
+                    <li><h2>Южное Домодедово</h2></li>
+                </ul>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav--link" href="#">О проекте</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--link" href="#">О Квартиры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--link" href="#">Условия покупки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav--link" href="#">Контакты</a>
+                    </li>
+                </ul>
+                <img src="uploud/Vector.svg" alt="vector">
+                <a class="mr-auto telephony" href="tel:+7 (495) 228 18 23">+7 (495) 228 18 23</a>
+                <a class="zakaz" href="#">Заказать звонок</a>
             </div
         </nav>
     </div>
 </header>
+
+<div id="newMycarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators Myindicators">
+        <li data-target="#newMycarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#newMycarousel" data-slide-to="1"></li>
+        <li data-target="#newMycarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="uploud/carusel-block.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="uploud/carusel-block.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+            <img src="uploud/carusel-block.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="section">
+    <div class="container-fluid">
+        <div class="main--filter ">
+            <div class="filters--form">
+                <div class="form-row">
+                    <div class="col-lg-6"><span>Выбрать квартиру</span></div>
+                    <div class="col-lg-6 text-right"><a href="">Показать на карте <img src="uploud/location.svg"
+                                                                                       alt=""></a></div>
+                    <div class="col-12 col-md-4 col-lg">Комнатность <br>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary">C</button>
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-secondary">2</button>
+                            <button type="button" class="btn btn-secondary">3</button>
+                            <button type="button" class="btn btn-secondary">4+</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg">
+                        Площадь, м²
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="от">
+                            <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg">
+                        Стоимость,₽
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="от">
+                            <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg">
+                        Этаж
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="от">
+                            <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg">
+                        <br>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                   value="option1"> не первый
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                                   value="option1"> не последний
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <br>
+                        <button type="button" class="btn btn--search w-100">Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
 </body>

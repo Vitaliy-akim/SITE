@@ -61,12 +61,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a class="navbar-brand" href="#"><img src="uploud/2687789277888.svg" alt="main_logo">
+                <a class="navbar-brand mr-auto" href="#"><img src="uploud/2020.svg" alt="main_logo">
                 </a>
-                <ul class="list--logo mr-auto">
-                    <li>ЖИЛОЙ КОМПЛЕКС</li>
-                    <li><h2>Южное Домодедово</h2></li>
-                </ul>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link nav--link" href="#">О проекте</a>
@@ -95,7 +91,7 @@
         <li data-target="#newMycarousel" data-slide-to="1"></li>
         <li data-target="#newMycarousel" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner slider">
         <div class="carousel-item active">
             <img src="uploud/carusel-block.png" class="d-block w-100" alt="...">
         </div>
@@ -136,32 +132,32 @@
                 <div class="col-12 col-md-4 col-lg">
                     Площадь, м²
                     <div class="input-group">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="от">
-                        <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        <input type="text" class="form-control" id="inputEmail1" placeholder="от">
+                        <input type="text" class="form-control" id="inputEmail1" placeholder="до">
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg">
                     Стоимость,₽
                     <div class="input-group">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="от">
-                        <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        <input type="text" class="form-control" id="inputEmail2" placeholder="от">
+                        <input type="text" class="form-control" id="inputEmail2" placeholder="до">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg">
                     Этаж
                     <div class="input-group">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="от">
-                        <input type="password" class="form-control" id="inputEmail4" placeholder="до">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="от">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="до">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg">
-                    <div class="form-check" style="padding-top: 15px;">
+                    <div class="form-check" style="padding-top: 10px;">
                         <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
                                value="option1"> <span>не первый</span>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
-                               value="option1"> <span>не последний</span>
+                               value="option2"> <span>не последний</span>
                     </div>
                 </div>
                 <div class="col-12 col-lg">
@@ -189,7 +185,7 @@
                                 <a href="#">Повышение цен 30.08</a>
                             </div>
                         </div>
-                        <div class="col-lg-6"><img style="height: 350px; width: 100%;" src="uploud/fon-logo.jpg"
+                        <div class="col-lg-6"><img style="height: 425px; width: 100%;" src="uploud/fon-logo.jpg"
                                                    alt="ds">
                         </div>
                     </div>
@@ -341,30 +337,484 @@
 
 </div>
 </div>
+<div class="fon-left"></div>
 </div>
 <div class="col-lg-7">
-    <div id="carouselEx" class="carousel slide" data-ride="carousel">
+
+    <div id="carouselEx" class="carousel slide" data-ride="carousel" data-interval=false>
         <div class="carousel-inner lop">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="uploud/image.png" alt="sa"
+                <img src="uploud/image.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="uploud/Image3.png" alt="sa"
+                <img src="uploud/image.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="uploud/image.png" class="d-block w-100" alt="...">
             </div>
         </div>
-        <a class="carousel-control-next btn-next" href="#carouselEx" role="button" data-slide="next">
-            <span class="carousel-control-next-icon btn-icon" aria-hidden="true"></span>
+        <a class="carousel-control-next next--btn" href="#carouselEx" role="button" data-slide="next">
+            <span class="carousel-control-next-icon icon--btn" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <div class="fon-right"></div>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="planirovka">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <h3>Планировки</h3>
+        </div>
+        <div class="col-lg-7">
+            <ul class="nav pills" id="pills-tab" role="tablist">
+                <li class="col-lg">
+                    <a class="col-link active" id="pills-1kv-tab" data-toggle="pill" href="#pills-1kv" role="tab"
+                       aria-controls="pills-1kv" aria-selected="true">1-комнатные</a>
+                </li>
+                <li class="col-lg">
+                    <a class="col-link" id="pills-2kv-tab" data-toggle="pill" href="#pills-2kv" role="tab"
+                       aria-controls="pills-2kv" aria-selected="false">2-комнатные</a>
+                </li>
+                <li class="col-lg">
+                    <a class="col-link" id="pills-3kv-tab" data-toggle="pill" href="#pills-3kv" role="tab"
+                       aria-controls="pills-3kv" aria-selected="false">3-комнатные</a>
+                </li>
+                <li class="col-lg">
+                    <a class="col-link" id="pills-4kv-tab" data-toggle="pill" href="#pills-4kv" role="tab"
+                       aria-controls="pills-4kv" aria-selected="false">4-комнатные</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-lg-2 text-right link-kv"><a href="#"><span>Все квартиры <img src="uploud/2131.svg" alt="32W"></span></a></div>
+        <div class="col-lg">
+            <div class="tab-content tab--content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1kv" role="tabpanel" aria-labelledby="pills-1kv-tab">
+
+                    <!--                    карты-->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                  </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                    <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                  </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                    <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                  </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                    <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                  </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                    <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--                    карты-->
 
 
+                </div>
+                <div class="tab-pane fade" id="pills-2kv" role="tabpanel" aria-labelledby="pills-2kv-tab">
+                    <!--                    карты-->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--                    карты-->
+                </div>
+                <div class="tab-pane fade" id="pills-3kv" role="tabpanel" aria-labelledby="pills-3kv-tab">
+                    <!--                    карты-->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--                    карты-->
+                </div>
+                <div class="tab-pane fade" id="pills-4kv" role="tabpanel" aria-labelledby="pills-4kv-tab">
+                    <!--                    карты-->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top p-4" src="uploud/planirovka.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>1C-26-Л-Д(2.2)</b></h5>
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <small class="text-muted">Проект </small>
+                                        <br>
+                                        <span><b>Квартал Некрасовка </b></span>
+                                    </div>
+                                    <div class="col-lg-3"><small class="text-muted">Корпус</small>
+                                        <br>
+                                        <span>5</span>
+                                    </div>
+                                    <div class="col-lg-4"><small class="text-muted">Площадь</small>
+                                        <br>
+                                        <span>26.7 м²</span></div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span><b>от 4 419 390 руб.</b></span><br>
+                                <small class="text-muted">1 квартира этого типа</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--                    карты-->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-
 </div>
-
+</div>
 
 </body>

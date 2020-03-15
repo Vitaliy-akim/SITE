@@ -22,13 +22,13 @@
 }
 
 .telephony {
-    font-size: 18px !important;
+    font-size: 21px !important;
     line-height: 31px;
     color: #000000 !important;
 }
 
 .carousel-indicators li {
-    width: 15px !important;
+    width: 10% !important;
     height: 15px !important;
     border-radius: 100%;
 }
@@ -70,7 +70,7 @@ nav .btn:focus {
 
 .zakaz {
     color: #DB0000;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 27px;
 }
 
@@ -97,7 +97,7 @@ nav .btn:focus {
 }
 
 .filters--form a, .filters--form a:hover {
-    font-size: 18px;
+    font-size: 21px;
     color: #000;
     text-decoration: none;
 }
@@ -109,7 +109,7 @@ nav .btn:focus {
 }
 
 .form-check span {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .cl {
@@ -118,8 +118,12 @@ nav .btn:focus {
 
 .btn-outline-secondary {
     border-color: #ced4da !important;
+    background-color: white!important;
+    color: #6c757d!important;
 }
-
+.btn-outline-secondary.active{
+    background-color: #8e7d7d3b!important;
+}
 .button-ck input {
     display: none;
 }
@@ -132,20 +136,25 @@ nav .btn:focus {
     padding-bottom: 10px;
 }
 .left-block p{
-    font-size: 18px;
+    font-size: 21px;
     padding-bottom: 10px;
 }
 .news-staty{
-    font-size: 18px;
+
+    font-size: 21px;
     padding-top: 90px;
 }
+.news-staty img,.news-staty a{
+    vertical-align: inherit;
+    color: #DA222A;
+}
 .Cost {
-    font-size: 18px;
+    font-size: 21px;
     color: #6c757d;
 }
 
 .Price {
-    font-size: 18px;
+    font-size: 21px;
     vertical-align: middle;
     line-height: 3;
 }
@@ -154,7 +163,7 @@ nav .btn:focus {
     background-color: #DA222A
 }
 .card img{
-    height: 230px;
+    height: 289px;
 }
 .info-block{
     bottom: 80px;
@@ -175,11 +184,11 @@ nav .btn:focus {
 }
 .carousel-indicators.block{
     margin:0px;
-    width: 50%;
+    width: 60%;
 
 }
 .carousel-control-next.btn--next{
-right: 50%;
+right: 40%;
     top: 470px;
     z-index: 999999;
 }
@@ -195,7 +204,7 @@ background-image: url("/uploud/Group-left.svg");
 }
 .info--1 {
     color: #DA222A;
-    font-size: 18px;
+    font-size: 21px;
     margin: 40px 0px ;
 
 }
@@ -207,15 +216,61 @@ background-image: url("/uploud/Group-left.svg");
     margin-top: 300px;
 }
 .carousel-inner.lop{
+    margin-bottom: 30px;
     height: 530px;
+    box-shadow: 0px 30px 9px 2px rgba(0, 0, 0, 0.1);
 }
-.carousel-control-next.btn-next{
+
+.carousel-control-next.next--btn{
     top: 42%;
     bottom: 42%;
-    right: -6%;
+    left: 87%;
 }
-.carousel-control-next-icon.btn-icon{
+.carousel-control-next-icon.icon--btn{
     background-image: url("/uploud/Ellipse.svg");
     width: 150px;
     height: 150px;
+}
+.fon-left{
+    height: 270px;
+    background: url("/uploud/Group-sity-left.svg") no-repeat;
+    opacity: 10%;
+}
+.fon-right{
+    height: 270px;
+    background: url("/uploud/Group-sity-right.svg") no-repeat 50% 100%;
+    opacity: 10%;
+}
+.planirovka{
+    padding: 30px;
+    background-color: #8e7d7d17;
+}
+.slider{
+    height: 100%;
+}
+.col-link{
+    font-size: 21px;
+    color: #6c757d;
+}
+.col-link.active{
+    color: #6fc2ff;
+}
+.col-link:hover{
+    color: #6c757d;
+ text-decoration: none;
+}
+.link-kv a, .link-kv a:hover {
+    text-decoration: none;
+    font-size: 21px;
+    color: #6c757d;
+}
+.text-muted .kj{
+    color: #6c757d;
+    font-size: 21px;
+}
+.card-deck{
+    color: #6c757d;
+}
+.tab--content{
+    padding-top: 50px;
 }

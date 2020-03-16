@@ -36,7 +36,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto ">
                     <li class="nav-item">
                         <a class="nav-link nav--link" href="#">Проекты</a>
                     </li>
@@ -47,11 +47,11 @@
                         <a class="nav-link nav--link" href="#">Офисы продаж</a>
                     </li>
                 </ul>
-                <div class="phone mr-4">
+                <div class="phone mr-4 	d-none d-lg-block ">
                     <img src="uploud/Adress.svg" alt="ds"> <span>г. Домодедово, ул. Курыжова</span>
 
                 </div>
-                <button type="button" class="btn btn--viabr">Выбрать квартиру <img src="uploud/Vector-right.svg" alt="">
+                <button type="button" class="btn btn--viabr d-none d-lg-block">Выбрать квартиру <img src="uploud/Vector-right.svg" alt="">
                 </button>
             </div
         </nav>
@@ -79,7 +79,7 @@
                 </ul>
                 <img src="uploud/Vector.svg" alt="vector">
                 <a class="mr-auto telephony" href="tel:+7 (495) 228 18 23">+7 (495) 228 18 23</a>
-                <a class="zakaz" href="#">Заказать звонок</a>
+                <a class="zakaz d-none d-lg-block" href="#">Заказать звонок</a>
             </div
         </nav>
     </div>
